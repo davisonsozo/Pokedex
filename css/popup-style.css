@@ -1,0 +1,122 @@
+@font-face {
+    font-family:pokemon;
+    src: url('../fontes/Pokemon\ Hollow.ttf') format('truetype');
+    font-family: pokemon2;
+    src: url('../fontes/Pokemon\ Solid.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+#pokenamepopup {
+    color: white;
+}
+
+#description > div {
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.315);
+  border-radius: 1rem;
+  background-color: #F5F5F5;
+  margin: 8px;
+    
+}
+h3 {
+    padding:8px;
+  
+}
+h5 {
+    padding: 20px;
+    font-weight: bolder;
+    font-size: medium;
+   
+}
+
+div#spancontent {
+    height: 260px;
+   
+}
+#description {
+width: 267px;
+border-radius: 1rem;
+margin: -8px;
+
+}
+img#popupimg {
+    padding-bottom: 0px;
+
+}
+
+.atributopopol {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.atributopopli {
+    padding: 0.3rem;
+    padding-left: 0.8rem;
+    margin: 0.3rem;
+    margin-left: 10px;
+    border-radius: 1rem;
+    font-size: 0.7rem;
+    height: 24px;
+    width:65px ;
+    text-transform: capitalize;
+    font-weight: bolder;
+    filter: brightness(1.1);
+    
+}
+
+.popup-content {
+    font-weight: bolder;
+    color: white;
+    display: grid;
+    padding: 10px;
+    border-radius: 1rem;
+   
+}
+#closebtn {
+   
+    margin: 10px;
+    height: 40px;
+    width: 200px;
+    border-radius: 2rem;
+    background-image: linear-gradient(45deg,#3d5e57,#3cab91,#4edebc);
+    color: white;
+    font-weight: bolder;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.247);
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.479);
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.popup-wrapper {
+    /*Por padrão deve estar display none  para manutenção display block*/
+    display: none;
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/*Div Principal*/
+.popup {
+    margin: 0;
+    border-radius: 1rem;
+    font-family: monospace;
+    text-align: center;
+    width: 100%;
+    max-width: 250px;
+    height: 397px;
+    margin: 10% auto;
+    padding:0px;
+    background-image: linear-gradient(90deg,#3d5e57,#3cab91,#4edebc);
+    position: relative;
+}
+
+
+
+
